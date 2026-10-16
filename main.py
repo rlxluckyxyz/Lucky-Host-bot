@@ -50,7 +50,7 @@ import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup, KeyboardButton
 
 # -------------------- CONFIGURATION --------------------
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8614669484:AAE1cYkXqoz0SceP2-XHEeiZutZKkOT5-6I")  # Set BOT_TOKEN in your hosting environment
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8775616954:AAE7E7aNO2JQTxLX7Voolhd0cLUElbGOUjk")  # Set BOT_TOKEN in your hosting environment
 ORIGINAL_ADMIN_IDS = [int(x.strip()) for x in os.environ.get("ADMIN_IDS", "8313599433").split(",") if x.strip().isdigit()]
 
 CPU_THRESHOLD = float(os.environ.get("CPU_THRESHOLD", "90.0"))
